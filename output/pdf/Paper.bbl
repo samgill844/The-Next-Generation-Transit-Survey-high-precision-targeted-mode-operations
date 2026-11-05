@@ -1,0 +1,252 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{{Ahrer} et~al.,}{{Ahrer}
+  et~al.}{2023}]{2023Natur.614..653A}
+{Ahrer} E.-M.,  et~al., 2023, \mn@doi [\nat] {10.1038/s41586-022-05590-4},
+  \href {https://ui.adsabs.harvard.edu/abs/2023Natur.614..653A} {614, 653}
+
+\bibitem[\protect\citeauthoryear{{Armstrong} et~al.,}{{Armstrong}
+  et~al.}{2020}]{2020Natur.583...39A}
+{Armstrong} D.~J.,  et~al., 2020, \mn@doi [\nat] {10.1038/s41586-020-2421-7},
+  \href {https://ui.adsabs.harvard.edu/abs/2020Natur.583...39A} {583, 39}
+
+\bibitem[\protect\citeauthoryear{{Astropy Collaboration} et~al.,}{{Astropy
+  Collaboration} et~al.}{2013}]{astropy:2013}
+{Astropy Collaboration} et~al., 2013, \mn@doi [\aap]
+  {10.1051/0004-6361/201322068}, \href
+  {http://adsabs.harvard.edu/abs/2013A%26A...558A..33A} {558, A33}
+
+\bibitem[\protect\citeauthoryear{{Astropy Collaboration} et~al.,}{{Astropy
+  Collaboration} et~al.}{2018}]{astropy:2018}
+{Astropy Collaboration} et~al., 2018, \mn@doi [\aj] {10.3847/1538-3881/aabc4f},
+  \href {https://ui.adsabs.harvard.edu/abs/2018AJ....156..123A} {156, 123}
+
+\bibitem[\protect\citeauthoryear{{Astropy Collaboration} et~al.,}{{Astropy
+  Collaboration} et~al.}{2022}]{astropy:2022}
+{Astropy Collaboration} et~al., 2022, \mn@doi [\apj]
+  {10.3847/1538-4357/ac7c74}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022ApJ...935..167A} {935, 167}
+
+\bibitem[\protect\citeauthoryear{Barbary}{Barbary}{2016}]{Barbary2016}
+Barbary K.,  2016, \mn@doi [Journal of Open Source Software]
+  {10.21105/joss.00058}, 1, 58
+
+\bibitem[\protect\citeauthoryear{{Barrag{\'a}n} et~al.,}{{Barrag{\'a}n}
+  et~al.}{2022}]{2022MNRAS.514.1606B}
+{Barrag{\'a}n} O.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stac638},
+  \href {https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.1606B} {514, 1606}
+
+\bibitem[\protect\citeauthoryear{{Benz} et~al.,}{{Benz}
+  et~al.}{2021}]{2021ExA....51..109B}
+{Benz} W.,  et~al., 2021, \mn@doi [Experimental Astronomy]
+  {10.1007/s10686-020-09679-4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021ExA....51..109B} {51, 109}
+
+\bibitem[\protect\citeauthoryear{{Bertin} \& {Arnouts}}{{Bertin} \&
+  {Arnouts}}{1996}]{1996A&AS..117..393B}
+{Bertin} E.,  {Arnouts} S.,  1996, \mn@doi [\aaps] {10.1051/aas:1996164}, \href
+  {https://ui.adsabs.harvard.edu/abs/1996A&AS..117..393B} {117, 393}
+
+\bibitem[\protect\citeauthoryear{{Bryant} et~al.,}{{Bryant}
+  et~al.}{2020a}]{2020MNRAS.494.5872B}
+{Bryant} E.~M.,  et~al., 2020a, \mn@doi [\mnras] {10.1093/mnras/staa1075},
+  \href {https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.5872B} {494, 5872}
+
+\bibitem[\protect\citeauthoryear{{Bryant} et~al.,}{{Bryant}
+  et~al.}{2020b}]{bryant20b}
+{Bryant} E.~M.,  et~al., 2020b, \mn@doi [\mnras] {10.1093/mnras/staa2976},
+  \href {https://ui.adsabs.harvard.edu/abs/2020MNRAS.499.3139B} {499, 3139}
+
+\bibitem[\protect\citeauthoryear{{Bryant} et~al.,}{{Bryant}
+  et~al.}{2021}]{2021MNRAS.504L..45B}
+{Bryant} E.~M.,  et~al., 2021, \mn@doi [\mnras] {10.1093/mnrasl/slab037}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.504L..45B} {504, L45}
+
+\bibitem[\protect\citeauthoryear{{Calia}, {Hackenberg}, {Holzl{\"o}hner},
+  {Lewis}  \& {Pfrommer}}{{Calia} et~al.}{2014}]{2014AdOT....3..345C}
+{Calia} D.~B.,  {Hackenberg} W.,  {Holzl{\"o}hner} R.,  {Lewis} S.,
+  {Pfrommer} T.,  2014, \mn@doi [Advanced Optical Technologies]
+  {10.1515/aot-2014-0025}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014AdOT....3..345C} {3, 345}
+
+\bibitem[\protect\citeauthoryear{{Chote} et~al.,}{{Chote}
+  et~al.}{2021}]{2021MNRAS.502..581C}
+{Chote} P.,  et~al., 2021, \mn@doi [\mnras] {10.1093/mnras/staa4015}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.502..581C} {502, 581}
+
+\bibitem[\protect\citeauthoryear{{Doyle} et~al.,}{{Doyle}
+  et~al.}{2022}]{2022MNRAS.516..298D}
+{Doyle} L.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stac2178}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.516..298D} {516, 298}
+
+\bibitem[\protect\citeauthoryear{{Doyle} et~al.,}{{Doyle}
+  et~al.}{2023}]{2023MNRAS.522.4499D}
+{Doyle} L.,  et~al., 2023, \mn@doi [\mnras] {10.1093/mnras/stad1240}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.4499D} {522, 4499}
+
+\bibitem[\protect\citeauthoryear{{Gill} et~al.,}{{Gill}
+  et~al.}{2020a}]{2020MNRAS.491.1548G}
+{Gill} S.,  et~al., 2020a, \mn@doi [\mnras] {10.1093/mnras/stz3212}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.1548G} {491, 1548}
+
+\bibitem[\protect\citeauthoryear{{Gill} et~al.,}{{Gill}
+  et~al.}{2020b}]{2020ApJ...898L..11G}
+{Gill} S.,  et~al., 2020b, \mn@doi [\apjl] {10.3847/2041-8213/ab9eb9}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...898L..11G} {898, L11}
+
+\bibitem[\protect\citeauthoryear{{Gill} et~al.,}{{Gill}
+  et~al.}{2022}]{2022MNRAS.513.1785G}
+{Gill} S.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stac798}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.1785G} {513, 1785}
+
+\bibitem[\protect\citeauthoryear{{Gill} et~al.,}{{Gill}
+  et~al.}{2024}]{2024MNRAS.532.1444G}
+{Gill} S.,  et~al., 2024, \mn@doi [\mnras] {10.1093/mnras/stae1256}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1444G} {532, 1444}
+
+\bibitem[\protect\citeauthoryear{{Hawthorn} et~al.,}{{Hawthorn}
+  et~al.}{2023}]{2023MNRAS.520.3649H}
+{Hawthorn} F.,  et~al., 2023, \mn@doi [\mnras] {10.1093/mnras/stad306}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.3649H} {520, 3649}
+
+\bibitem[\protect\citeauthoryear{{Jenkins}}{{Jenkins}}{2019}]{2019ESS.....410307J}
+{Jenkins} J.,  2019, in AAS/Division for Extreme Solar Systems Abstracts. p.
+  103.07
+
+\bibitem[\protect\citeauthoryear{{Kaye} et~al.,}{{Kaye}
+  et~al.}{2022}]{2022MNRAS.510.5464K}
+{Kaye} L.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stab3483}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.5464K} {510, 5464}
+
+\bibitem[\protect\citeauthoryear{{Kim}}{{Kim}}{2016}]{2016ascl.soft05009K}
+{Kim} D.-W.,  2016, {ASTRiDE: Automated Streak Detection for Astronomical
+  Images} (\mn@eprint {ascl} {1605.009})
+
+\bibitem[\protect\citeauthoryear{{Lang}, {Hogg}, {Mierle}, {Blanton}  \&
+  {Roweis}}{{Lang} et~al.}{2010}]{2010AJ....139.1782L}
+{Lang} D.,  {Hogg} D.~W.,  {Mierle} K.,  {Blanton} M.,   {Roweis} S.,  2010,
+  \mn@doi [\aj] {10.1088/0004-6256/139/5/1782}, \href
+  {https://ui.adsabs.harvard.edu/abs/2010AJ....139.1782L} {139, 1782}
+
+\bibitem[\protect\citeauthoryear{{Leleu} et~al.,}{{Leleu}
+  et~al.}{2019}]{2019A&A...624A..46L}
+{Leleu} A.,  et~al., 2019, \mn@doi [\aap] {10.1051/0004-6361/201834901}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019A&A...624A..46L} {624, A46}
+
+\bibitem[\protect\citeauthoryear{{Leleu} et~al.,}{{Leleu}
+  et~al.}{2021}]{2021A&A...649A..26L}
+{Leleu} A.,  et~al., 2021, \mn@doi [\aap] {10.1051/0004-6361/202039767}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021A&A...649A..26L} {649, A26}
+
+\bibitem[\protect\citeauthoryear{{Leleu} et~al.,}{{Leleu}
+  et~al.}{2024}]{2024A&A...688A.211L}
+{Leleu} A.,  et~al., 2024, \mn@doi [\aap] {10.1051/0004-6361/202450212}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024A&A...688A.211L} {688, A211}
+
+\bibitem[\protect\citeauthoryear{{McCormac}, {Pollacco}, {Skillen}, {Faedi},
+  {Todd}  \& {Watson}}{{McCormac} et~al.}{2013}]{2013PASP..125..548M}
+{McCormac} J.,  {Pollacco} D.,  {Skillen} I.,  {Faedi} F.,  {Todd} I.,
+  {Watson} C.~A.,  2013, \mn@doi [\pasp] {10.1086/670940}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013PASP..125..548M} {125, 548}
+
+\bibitem[\protect\citeauthoryear{{Nielsen} et~al.,}{{Nielsen}
+  et~al.}{2020}]{2020A&A...639A..76N}
+{Nielsen} L.~D.,  et~al., 2020, \mn@doi [\aap] {10.1051/0004-6361/202037941},
+  \href {https://ui.adsabs.harvard.edu/abs/2020A&A...639A..76N} {639, A76}
+
+\bibitem[\protect\citeauthoryear{{O'Brien} et~al.,}{{O'Brien}
+  et~al.}{2022}]{2022MNRAS.509.6111O}
+{O'Brien} S.~M.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stab3399},
+  \href {https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.6111O} {509, 6111}
+
+\bibitem[\protect\citeauthoryear{{Osborn} et~al.,}{{Osborn}
+  et~al.}{2021}]{2021MNRAS.507.2782O}
+{Osborn} A.,  et~al., 2021, \mn@doi [\mnras] {10.1093/mnras/stab2313}, \href
+  {https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.2782O} {507, 2782}
+
+\bibitem[\protect\citeauthoryear{{Pepe} et~al.,}{{Pepe}
+  et~al.}{2002}]{2002Msngr.110....9P}
+{Pepe} F.,  et~al., 2002, The Messenger, \href
+  {https://ui.adsabs.harvard.edu/abs/2002Msngr.110....9P} {110, 9}
+
+\bibitem[\protect\citeauthoryear{{Pepe} et~al.,}{{Pepe}
+  et~al.}{2010}]{2010SPIE.7735E..0FP}
+{Pepe} F.~A.,  et~al., 2010, in {McLean} I.~S.,  {Ramsay} S.~K.,   {Takami} H.,
+   eds,  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
+  Series Vol. 7735, Ground-based and Airborne Instrumentation for Astronomy
+  III. p. 77350F, \mn@doi{10.1117/12.857122}
+
+\bibitem[\protect\citeauthoryear{{Rauer} et~al.,}{{Rauer}
+  et~al.}{2014}]{2014ExA....38..249R}
+{Rauer} H.,  et~al., 2014, \mn@doi [Experimental Astronomy]
+  {10.1007/s10686-014-9383-4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014ExA....38..249R} {38, 249}
+
+\bibitem[\protect\citeauthoryear{{Ricker} et~al.,}{{Ricker}
+  et~al.}{2015}]{Ricker15}
+{Ricker} G.~R.,  et~al., 2015, \mn@doi [Journal of Astronomical Telescopes,
+  Instruments, and Systems] {10.1117/1.JATIS.1.1.014003}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015JATIS...1a4003R} {1, 014003}
+
+\bibitem[\protect\citeauthoryear{Seward}{Seward}{1998}]{seward_bzip2}
+Seward J.,  1998, The bzip2 and libbzip2 official homepage
+
+\bibitem[\protect\citeauthoryear{{Shupe}, {Moshir}, {Li}, {Makovoz}, {Narron}
+  \& {Hook}}{{Shupe} et~al.}{2005}]{2005ASPC..347..491S}
+{Shupe} D.~L.,  {Moshir} M.,  {Li} J.,  {Makovoz} D.,  {Narron} R.,   {Hook}
+  R.~N.,  2005, in {Shopbell} P.,  {Britton} M.,   {Ebert} R.,  eds,
+  Astronomical Society of the Pacific Conference Series Vol. 347, Astronomical
+  Data Analysis Software and Systems XIV. p.~491
+
+\bibitem[\protect\citeauthoryear{{Smith} et~al.,}{{Smith}
+  et~al.}{2023}]{2023MNRAS.523..169S}
+{Smith} G.~D.,  et~al., 2023, \mn@doi [\mnras] {10.1093/mnras/stad1435}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023MNRAS.523..169S} {523, 169}
+
+\bibitem[\protect\citeauthoryear{{Stassun} et~al.,}{{Stassun}
+  et~al.}{2019}]{2019AJ....158..138S}
+{Stassun} K.~G.,  et~al., 2019, \mn@doi [\aj] {10.3847/1538-3881/ab3467}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019AJ....158..138S} {158, 138}
+
+\bibitem[\protect\citeauthoryear{{Sullivan} et~al.,}{{Sullivan}
+  et~al.}{2015}]{2015ApJ...809...77S}
+{Sullivan} P.~W.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/809/1/77},
+  \href {https://ui.adsabs.harvard.edu/abs/2015ApJ...809...77S} {809, 77}
+
+\bibitem[\protect\citeauthoryear{{Tamuz}, {Mazeh}  \& {Zucker}}{{Tamuz}
+  et~al.}{2005}]{2005MNRAS.356.1466T}
+{Tamuz} O.,  {Mazeh} T.,   {Zucker} S.,  2005, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2004.08585.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2005MNRAS.356.1466T} {356, 1466}
+
+\bibitem[\protect\citeauthoryear{{Thatte} et~al.,}{{Thatte}
+  et~al.}{2016}]{2016SPIE.9908E..1XT}
+{Thatte} N.~A.,  et~al., 2016, in {Evans} C.~J.,  {Simard} L.,   {Takami} H.,
+  eds,  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
+  Series Vol. 9908, Ground-based and Airborne Instrumentation for Astronomy VI.
+  p. 99081X, \mn@doi{10.1117/12.2230629}
+
+\bibitem[\protect\citeauthoryear{{Wheatley} et~al.,}{{Wheatley}
+  et~al.}{2018}]{2018MNRAS.475.4476W}
+{Wheatley} P.~J.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/stx2836},
+  \href {https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.4476W} {475, 4476}
+
+\makeatother
+\end{thebibliography}
